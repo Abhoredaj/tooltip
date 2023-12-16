@@ -15,7 +15,8 @@ This is a simple React application that demonstrates the usage of a button with 
 
    ```
    git clone https://github.com/Abhoredaj/tooltip.git
-
+   ```
+   
 2. Navigate to the project directory:
 
 ```
@@ -26,6 +27,7 @@ cd tooltip
 
 ```
 npm install
+```
 
 ## Usage
 1. Start the development server:
@@ -38,6 +40,7 @@ npm start
 3. Explore the application with the button, position selector, and tooltip.
 
 ## Folder Structure
+
 ```
 
 │   package-lock.json
