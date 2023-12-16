@@ -20,8 +20,9 @@ This is a simple React application that demonstrates the usage of a button with 
 
 ```
 cd tooltip
+```
 
-Install dependencies:
+3. Install dependencies:
 
 ```
 npm install
@@ -66,6 +67,7 @@ npm start
             Hover.js
             Selector.js
             Tooltip.js
-...
+```
+
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
