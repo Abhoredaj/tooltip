@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+// Importing necessary styles and components
 import './App.css';
+import PositionSelect from './components/Selector';
+import Hover from './components/Hover';
+import BtnContextProvider from './ButtonContext';
 
+// Main App component
 function App() {
   return (
+    // The root div with the "App" class for styling
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Wrap the components that need access to the button context with the provider */}
+      <BtnContextProvider>
+        {/* Component for selecting the position */}
+        <PositionSelect />
+        {/* Component for handling hover events */}
+        <Hover />
+      </BtnContextProvider>
     </div>
   );
 }
 
+// Exporting the App component as the default export
 export default App;

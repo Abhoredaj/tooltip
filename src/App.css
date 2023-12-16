@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+.btn{
+  margin-left: none;
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background: rgba(228, 232, 234, 0.922);
+} 
+
+#button-container{
+  width: 23%;
+  height: 15%;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.hover-btn{
+  height: 50%;
+  width: 50%;
+  font-size: 1rem;
+
+}
+.hover-btn:hover{
+  background-color:aqua;
+}
+
+.Top{
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: -3%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(139, 235, 141);
+  
+}
+
+.Right{
+    height: 30%;
+    width: 50%;
+    margin-top:-18%;
+    margin-left: 80%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(139, 235, 141);
+}
+
+.Bottom{
+  height: 30%;
+  width: 50%;
+  margin-top: 15%;
+  margin-left: -3%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(139, 235, 141);
+}
+
+.Left{
+  height: 30%;
+  width: 50%;
+  margin-top:-17%;
+  margin-left: -80%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgb(139, 235, 141);
+}
